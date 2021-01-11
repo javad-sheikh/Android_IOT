@@ -1,0 +1,31 @@
+RAM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+str                                                                               0x0160      50
+rx_buffer                                                                         0x0192       8
+
+EEPROM Allocation [bytes]
+Variable                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+
+Register Allocation
+Variable                                                                          Register  Size
+------------------------------------------------------------------------------------------------
+state                                                                             R5           1
+trans                                                                             R4           1
+flag                                                                              R7           1
+counter_str                                                                       R6           1
+i                                                                                 R9           1
+rx_wr_index                                                                       R8           1
+rx_rd_index                                                                       R11          1
+rx_counter                                                                        R10          1
+rx_buffer_overflow                                                                R2.0      1bit
+
+FLASH Allocation [words]
+Function                                                                          Address   Size
+------------------------------------------------------------------------------------------------
+ext_int0_isr                                                                      0x00053     17
+usart_rx_isr                                                                      0x00064    108
+main                                                                              0x000D0     56
+memset                                                                            0x00108     16
+strlen                                                                            0x00118     12
