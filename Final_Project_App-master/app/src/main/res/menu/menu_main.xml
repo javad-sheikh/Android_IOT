@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.javadsh.final_project_app.MainActivity">
+    <item
+        android:id="@+id/on"
+        android:orderInCategory="100"
+        android:title="روشن کردن همه"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/off"
+        android:orderInCategory="100"
+        android:title="خاموش کردن همه"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        android:title="خروج از برنامه"
+        app:showAsAction="never" />
+
+</menu>
