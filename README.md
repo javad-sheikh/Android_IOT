@@ -9,5 +9,7 @@ This project consisted of two parts:
 For the first part, we simulated the circuit on Proteus Design Suite before buying any parts. The program to run the ATMEGA8 was written using CodeVision and the HEX files were obtained from CodeVision. The files for CodeVision is located in "Microcontroller files" folder. The HEX file was uploaded into Proteus Design Suite and the simulation was successful. The files for Proteus Design Suite are located in "proteus" folder. The schematic of the circuit is Shown below:
 ![alt text](https://github.com/javad-sheikh/Android_IOT/blob/main/Images/proteusfinal.jpg)
 
+After that, we designed a PCB using Altium designer. The Altium designer project files are in the Altium folder. I made this pcb as small as possible to fit it in a conventional switch place. The Final schematic used in Altium designer is shown below:
+![alt text](https://github.com/javad-sheikh/Android_IOT/blob/main/Images/Schematic%20Prints.jpg)
 
-After that, we designed a PCB using Altium designer. The Altium designer project files are in the Altium folder. I had to work hard to make this pcb as small as possible to fit it in conventional switch place.
+![alt text](https://github.com/javad-sheikh/Android_IOT/blob/main/Images/finished.jpg)
